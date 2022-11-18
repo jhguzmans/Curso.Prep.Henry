@@ -238,7 +238,7 @@ function continueStatement(numero) {
   // Tu código:
   var newarr=[];
   for(i = 0 ; i < 10 ; i++ ){
-    
+    //y
     if(4 == i){
       continue;  
     }
