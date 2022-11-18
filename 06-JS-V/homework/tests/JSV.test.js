@@ -39,8 +39,8 @@ describe('agregarStringInvertida(StringPrototype)', function(){
 	});
 });
 
-describe('crearInstanciaPersona()', function() {
-	it('should return a new instance of Persona', function() {
+describe("crearInstanciaPersona()", function() {
+	it("should return a new instance of Persona", function() {
 		expect(crearInstanciaPersona("Juan", "Pérez", 22, "Saavedra 123")).toBeInstanceOf(Persona);
 	});
 });
